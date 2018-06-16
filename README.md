@@ -1,4 +1,21 @@
-# GeoPackage MapCache Android
+# Cognitics GeoPackage MapCache Android Fork
+
+
+NGA GeoPackage API + Maps API
+
+Sample Data?
+
+## Can we use a Raspberry pi as an AP and simulated sensor?
+Challenge Details:
+https://www.teamwerx.org/mobile/
+
+Sensor Simulator:
+https://github.com/openintents/sensorsimulator
+
+Raspberry pi as an AP:
+https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md
+
+
 
 #### MapCache Android ####
 
