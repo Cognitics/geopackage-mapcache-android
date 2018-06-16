@@ -50,8 +50,17 @@ task androidAppVersion {
 
 dependencies {
     api 'com.android.support:appcompat-v7:27.1.1'
-    api "mil.nga.geopackage.map:geopackage-android-map:3.0.1" // comment out to build locally
-    //api project(':geopackage-map') // uncomment me to build locally
+    //api "mil.nga.geopackage.map:geopackage-android-map:3.0.1" // comment out to build locally
+//    api project(':geopackage-map') // uncomment me to build locally
+//    api project(':geopackage-core')
+//    api project(':geopackage-android')
+    api 'mil.nga.sf:sf-proj:2.0.0'
+    api 'mil.nga.sf:sf-wkb:2.0.0'
+    api 'mil.nga.sf:sf-geojson:2.0.0'
+    api 'mil.nga:tiff:2.0.0'
+    api 'com.j256.ormlite:ormlite-core:5.0'
+    api 'com.j256.ormlite:ormlite-android:5.0'
+    api 'ar.com.hjg:pngj:2.1.0'
     api 'com.android.support:multidex:1.0.3'
     testImplementation 'com.android.support:multidex:1.0.3'
 }
