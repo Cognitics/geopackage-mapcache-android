@@ -51,9 +51,9 @@ task androidAppVersion {
 dependencies {
     api 'com.android.support:appcompat-v7:27.1.1'
     //api "mil.nga.geopackage.map:geopackage-android-map:3.0.1" // comment out to build locally
-//    api project(':geopackage-map') // uncomment me to build locally
-//    api project(':geopackage-core')
-//    api project(':geopackage-android')
+    //api project(':geopackage-map') // uncomment me to build locally
+    //    api project(':geopackage-core')
+    //    api project(':geopackage-android')
     api 'mil.nga.sf:sf-proj:2.0.0'
     api 'mil.nga.sf:sf-wkb:2.0.0'
     api 'mil.nga.sf:sf-geojson:2.0.0'
@@ -63,6 +63,12 @@ dependencies {
     api 'ar.com.hjg:pngj:2.1.0'
     api 'com.android.support:multidex:1.0.3'
     testImplementation 'com.android.support:multidex:1.0.3'
+    implementation project(':geopackage-core-3.0.1')
+    implementation project(':geopackage-android-3.0.1')
+    implementation project(':geopackage-android-map-3.0.1')
+    api 'com.google.android.gms:play-services-analytics:7.3.0'
+    api 'com.google.android.gms:play-services-maps:15.0.1'
+    compile 'com.google.maps.android:android-maps-utils:0.5'
 }
 
 configure extensions.android, {

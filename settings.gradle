@@ -1,6 +1,1 @@
-include ':mapcache'
-// uncomment below to build locally
-//include ':geopackage-sdk'
-//project(':geopackage-sdk').projectDir = new File('../geopackage-android/geopackage-sdk')
-//include ':geopackage-map'
-//project(':geopackage-map').projectDir = new File('../geopackage-android-map/geopackage-map')
+include ':mapcache', ':geopackage-core-3.0.1', ':geopackage-android-3.0.1', ':geopackage-android-map-3.0.1'
